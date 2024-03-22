@@ -1,0 +1,13 @@
+id = "julia"
+name = "Julia"
+description = "Julia support for Zed"
+version = "0.0.1"
+authors = ["Paul Berg <paul@plutojl.org>"]
+
+[language_servers.julia]
+name = "LanguageServer.jl"
+language = "Julia"
+
+[grammars.julia]
+repository = "https://github.com/tree-sitter/tree-sitter-julia"
+commit = "e84f10db8eeb8b9807786bfc658808edaa1b4fa2"

@@ -1,0 +1,13 @@
+[package]
+name = "zed_julia"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+zed_extension_api = { path = "../../crates/extension_api" }
+
+[lib]
+path = "src/julia.rs"
+crate-type = ["cdylib"]
+
+[package.metadata.component]

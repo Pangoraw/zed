@@ -12849,6 +12849,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "zed_julia"
+version = "0.0.1"
+dependencies = [
+ "zed_extension_api",
+]
+
+[[package]]
 name = "zed_uiua"
 version = "0.0.1"
 dependencies = [

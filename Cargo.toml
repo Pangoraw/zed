@@ -95,6 +95,7 @@ members = [
 
     "extensions/gleam",
     "extensions/uiua",
+    "extensions/julia",
 
     "tooling/xtask",
 ]
