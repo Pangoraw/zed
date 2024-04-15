@@ -19,7 +19,7 @@
 
 (method_declaration
     name: (identifier) @name
-    parameters: (parameter_list) @context
+    parameters: (argument_list) @context
 ) @item
 
 (enum_declaration
